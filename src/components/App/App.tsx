@@ -4,7 +4,7 @@ import SearchBar from "../SearchBar/SearchBar";
 import toast, { Toaster } from "react-hot-toast";
 import ReactPaginate from "react-paginate";
 import { useQuery, keepPreviousData } from "@tanstack/react-query";
-import { fetchMovies } from "../../services/movieServices";
+import { fetchMovies } from "../../services/movieService";
 import MovieGrid from "../MovieGrid/MovieGrid";
 import type { Movie } from "../../types/movie";
 import MovieModal from "../MovieModal/MovieModal";
